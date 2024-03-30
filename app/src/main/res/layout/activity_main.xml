@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4D1D1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/length"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#5F76F6"
+                    android:backgroundTintMode="screen"
+                    android:text="@string/length"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10sp"
+                    app:icon="@drawable/length"
+                    app:iconGravity="top"
+                    app:iconSize="80sp"
+                    app:iconTintMode="multiply" />
+
+                <Button
+                    android:id="@+id/pressure"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#5F76F6"
+                    android:backgroundTintMode="screen"
+                    android:text="@string/pressure"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10sp"
+                    app:icon="@drawable/pressure"
+                    app:iconGravity="top"
+                    app:iconSize="80sp"
+                    app:iconTintMode="multiply" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/angle"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#5F76F6"
+                    android:backgroundTintMode="screen"
+                    android:text="@string/angle"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10sp"
+                    app:icon="@drawable/angle"
+                    app:iconGravity="top"
+                    app:iconSize="80sp"
+                    app:iconTintMode="multiply" />
+
+                <Button
+                    android:id="@+id/temperature"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#5F76F6"
+                    android:backgroundTintMode="screen"
+                    android:text="@string/temperature"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10sp"
+                    app:icon="@drawable/temperature"
+                    app:iconGravity="top"
+                    app:iconSize="80sp"
+                    app:iconTintMode="multiply" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/weight"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#5F76F6"
+                    android:backgroundTintMode="screen"
+                    android:text="@string/weight"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10sp"
+                    app:icon="@drawable/weight"
+                    app:iconGravity="top"
+                    app:iconSize="80sp"
+                    app:iconTintMode="multiply" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

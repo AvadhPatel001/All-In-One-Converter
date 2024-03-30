@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">All In One Converter</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="temperature">Temperature</string>
+    <string name="angle">angle</string>
+    <string name="currency">currency</string>
+    <string name="weight">weight</string>
+    <string name="length">length</string>
+    <string name="pressure">pressure</string>
+    <string name="weight_value_1">Enter Value</string>
+    <string name="weight_value_2">Answer</string>
+    <string name="answer">Answer</string>
+    <string name="convert">Convert</string>
+</resources>
